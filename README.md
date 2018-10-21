@@ -3,13 +3,13 @@ Git学习笔记
 撰写本文的目的有两个，其一是记录自己学习github过程中我用到的文献，方便以后自己忘记之后在做查找。其二是练习使用markdown语法。
 ## github入门级教程
 1.注册
-登录[GitHub]（https://github.com/)，点击sign up注册，如果已经有账号，点击sign in登录。
+登录[GitHub]（https://github.com/ )，点击sign up注册，如果已经有账号，点击sign in登录。
 2.创建Repository
 登录后点击人物头像旁边的小加号
 在里面创建新项目
 * 注意:在里面可以点上一个√，会自动创建一个README.md文件 *
 3.配置git环境
-先下载git文件 [点击此处下载git]（https://git-scm.com/downloads)，下载完成后，自己安装，安装完成后开始菜单点击GitBash，输入
+先下载git文件 [点击此处下载git]（https://git-scm.com/downloads )，下载完成后，自己安装，安装完成后开始菜单点击GitBash，输入
 ```
 $ git config --global user.name "Your Name" 
 $ git config --global user.email "email@example.com"
