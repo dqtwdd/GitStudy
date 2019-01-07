@@ -15,6 +15,7 @@ $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 ```
 进行链接你的GitHub。
+* 这块直接设么设置不行。此处这么设置的本意是以后在提交的时候都不需要输入用户名和密码，但是方法不对，不输入用户名密码可以在git clone时候使用ssh方式，或者配置秘钥，不推荐，因为不安全。 *
 链接完成后，选择一个合适的位置，创建一个本地库文件夹，有两种方式创建本地库。
 1.在github建好的库中copy库的地址，然后在文件夹中右击，git bash here，然后输入
 ```
