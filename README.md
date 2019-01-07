@@ -3,20 +3,20 @@ Git学习笔记
 撰写本文的目的有两个，其一是记录自己学习github过程中我用到的文献，方便以后自己忘记之后在做查找。其二是练习使用markdown语法。
 ## github入门级教程
 1.注册
-登录[GitHub](https://github.com/)，点击sign up注册，如果已经有账号，点击sign in登录。
+登录[GitHub](https://github.com/)，点击sign up注册，如果已经有账号，点击sign in登录。  
 2.创建Repository
 登录后点击人物头像旁边的小加号
-在里面创建新项目
-* 注意:在里面可以点上一个√，会自动创建一个README.md文件 *
+在里面创建新项目  
+*注意:在里面可以点上一个√，会自动创建一个README.md文件*  
 3.配置git环境
 先下载git文件 [点击此处下载git](https://git-scm.com/downloads)，下载完成后，自己安装，安装完成后开始菜单点击GitBash，输入
 ```
 $ git config --global user.name "Your Name" 
 $ git config --global user.email "email@example.com"
 ```
-进行链接你的GitHub。
-* 这块直接设么设置不行。此处这么设置的本意是以后在提交的时候都不需要输入用户名和密码，但是方法不对，不输入用户名密码可以在git clone时候使用ssh方式，或者配置秘钥，不推荐，因为不安全。 *
-链接完成后，选择一个合适的位置，创建一个本地库文件夹，有两种方式创建本地库。
+进行链接你的GitHub。  
+*这块直接设么设置不行。此处这么设置的本意是以后在提交的时候都不需要输入用户名和密码，但是方法不对，不输入用户名密码可以在git clone时候使用ssh方式，或者配置秘钥，不推荐，因为不安全。*
+链接完成后，选择一个合适的位置，创建一个本地库文件夹，有两种方式创建本地库。  
 1.在github建好的库中copy库的地址，然后在文件夹中右击，git bash here，然后输入
 ```
 git clone ...
@@ -56,7 +56,7 @@ git commit -m "wrote a readme file"
 ```
 git push origin master
 ```
-* 附:git命令合集 *
+*附:git命令合集*  
 git log 查看历史版本
 git reset --hard HEAD^ 恢复到上一个版本HEAD^^上上个版本，HEAD~100前100个版本，如果记得后面版本的版本号的话，还可以用git reset --hard HEAD 1094a 来恢复到后面的版本。其中，1094a是版本号的前几位，可以在git log中查看过去的版本号，在git reflog查看未来的版本号。
 cat readme.md 查看文件内容。
